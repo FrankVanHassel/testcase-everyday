@@ -1,0 +1,167 @@
+@import "https://fonts.googleapis.com/css2?family=Lato&display=swap";
+
+body {
+  font-family: "Lato", sans-serif;
+  background: #ffffff;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 84px;
+  text-align: left;
+  padding-right: 150px;
+  margin-bottom: 50px;
+  margin-top: 150px;
+}
+
+h2 {
+  color: #272728;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: left;
+}
+
+.overlay-text {
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 500;
+  position: absolute;
+  bottom: 25px;
+  left: 36px;
+}
+
+.navbar-nav {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-collapse {
+  margin-left: 50px;
+}
+
+.navbar-nav > li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav-link {
+  color: #5c5c5c;
+}
+
+a.nav-link.active {
+  color: #232323;
+}
+
+.nav-link:hover {
+  color: #d74e3a;
+}
+
+.banner {
+  background-image: url("../images/DenOuden_Banner.png");
+  height: 600px;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
+.services {
+  margin-bottom: 25px;
+}
+
+.arrow {
+  background: url("../images/arrow.png") no-repeat;
+  height: 20px;
+  width: 17px;
+  position: absolute;
+  bottom: 21px;
+  right: 34px;
+}
+
+button.btn-outline-succes {
+  width: 190px;
+  height: 59px;
+  background: #ffffff;
+  border: 2px solid #d74e3a;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #d74e3a;
+}
+
+.btn-outline-succes:hover {
+  color: #ffffff;
+  background: #d74e3a;
+  border: 2px solid #d74e3a;
+}
+
+.btn-outline-info {
+  width: 241px;
+  height: 59px;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.btn-outline-info:hover {
+  background: #d74e3a;
+  border: 2px solid #d74e3a;
+}
+
+.btn-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  text-decoration: underline;
+  color: #d74e3a;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-collapse {
+    margin-left: 0px;
+  }
+
+  .banner {
+    height: 500px;
+  }
+
+  .content {
+    margin-bottom: 0px;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+    padding-right: 25px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  .btn-outline-succes {
+    display: none;
+  }
+
+  .services-box {
+    text-align: center;
+  }
+
+  .overlay-text {
+    left: 90px;
+  }
+
+  .arrow {
+    right: 85px;
+  }
+}
